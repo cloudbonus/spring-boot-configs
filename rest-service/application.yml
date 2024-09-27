@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    openfeign:
+      client:
+        config:
+          rabbitmq-service:
+            readTimeout: 5000
+            connectTimeout: 5000
