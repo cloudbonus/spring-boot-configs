@@ -8,6 +8,8 @@ spring:
       value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
   rabbitmq:
     host: rabbitmq
+    user: user
+    password: password
 
 topic:
   name: limbo
