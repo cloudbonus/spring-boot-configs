@@ -8,6 +8,3 @@ spring:
     host: rabbitmq
     username: user
     password: password
-
-topic:
-  name: limbo
